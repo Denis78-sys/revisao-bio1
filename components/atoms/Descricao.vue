@@ -9,11 +9,13 @@
 <style scoped>
 p{
     font-size: 24px;
+    margin-top: 16px;
 }
 
 @media (max-width: 767px) {
     p{
         font-size: 18px;
+        margin-top: 8px;
     }
 }
 </style>

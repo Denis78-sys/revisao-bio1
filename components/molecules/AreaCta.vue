@@ -26,4 +26,9 @@ li{
     display: grid;
     grid-gap: 24px;
 }
+
+.area-cta {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
 </style>

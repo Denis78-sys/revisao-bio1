@@ -1,19 +1,24 @@
 <!-- eslint-disable vue/multi-word-component-names -->
 <template>
     <div class="informacoes">
-        <AreaLogoRedes class="logo-redes"/>
+        <AreaLogoRedes/>
         <Descricao />
     </div>
 </template>
 
 <style scoped>
-.logo-redes{
-    margin-bottom: 16px;
+
+.informacoes{
+    margin-top: 20px;
 }
 
+.informacoes {
+  margin-top: 32px;
+}
 @media (max-width: 767px) {
-    .logo-redes{
-        margin-bottom: 28px;
+  
+    .informacoes{
+    margin-top: 16px;
     }
 }
 </style>

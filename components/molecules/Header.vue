@@ -2,13 +2,17 @@
 <template>
   <div class="header">
     <div class="faixa"></div>
-    <Container1>
+    <div class="containerFoto">
       <Foto class="foto-perfil" />
-    </Container1>
+    </div>
   </div>
 </template>
 
 <style scoped>
+.containerFoto {
+  width: 60%;
+  margin: auto;
+}
 .faixa {
   display: grid;
   grid-template-columns: 1fr;
@@ -24,7 +28,10 @@
   .foto-perfil {
     margin-top: -50px;
   }
-
+  .containerFoto {
+    width: 90%;
+    
+  }
   .faixa {
     grid-template-rows: 175px;
   }
